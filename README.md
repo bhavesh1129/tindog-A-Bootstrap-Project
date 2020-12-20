@@ -1,1 +1,1 @@
-# tindog-A-Bootstrap-Project-
+# tindog:A Bootstrap Project
