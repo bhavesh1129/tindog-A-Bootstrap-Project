@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body {
+    font-family: "Montserrat";
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Ubuntu;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.download-but {
+    margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-sec {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.social-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.social-icons:hover {
+    color: #ff4c68;
+}
+
+.mini-head {
+    font-weight: 600;
+}
+
+.mini-para {
+    font-weight: 300;
+    color: gray;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.h3-head {
+    font-weight: 700;
+    list-style: 1.5;
+    font-size: 3.5rem;
+}
+
+#footer {
+    padding: 7% 13%;
+    text-align: center;
+}
+
+.social-icons2 {
+    margin: 20px 10px;
+    color: black;
+}
+
+.social-icons2:hover {
+    color: #ff4c68;
+}
+
+.social-icons3 {
+    color: red;
+}
+
+@media (max-width:1087px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0deg);
+        position: static;
+    }
+}
